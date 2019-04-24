@@ -26,6 +26,16 @@ pip install -r requirements.txt
 
 Рекомендуется использовать 	[virtualenv/venv](https://virtualenv.pypa.io/en/latest/) для изоляции проекта.
 
+Примеры запуска скрипта:
+```
+python3 main.py https://github.com/ArkJzzz/dvmn-web-api-migration
+>> bit.ly/2GFtm3p
+```
+```
+python3 main.py bit.ly/2GFtm3p
+>> 0
+```
+
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
