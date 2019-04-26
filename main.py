@@ -73,7 +73,7 @@ def count_clicks(api_address, headers, token, shortlink):
     return clicks
 
 
-def create_rarser ():
+def create_parser():
     parser = argparse.ArgumentParser(description='''
         Программа принимает на вход ссылку.
         Если ссылка является не сокращенной, то возвращает сокращенную ссылку.
@@ -91,7 +91,7 @@ def main():
     token = os.getenv("TOKEN")
     headers = {'Authorization': token}
 
-    parser = create_rarser()
+    parser = create_parser()
     input_links = parser.parse_args(sys.argv)
 
     for input_link in input_links.link:
